@@ -29,7 +29,7 @@ export default function SignalRNotifier(props) {
             let user = JSON.parse(sessionStorage.getItem('user'));
 
             if (result.userId == user.id) {
-              let finalMessage = "someone is viewing one of your properties [" + result.message + "]"
+              let finalMessage = "Someone is viewing one of your properties [" + result.message + "]"
               enqueueSnackbar(finalMessage, { variant: 'warning' });
               props.notifyEvent(finalMessage);
             }
