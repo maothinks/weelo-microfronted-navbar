@@ -12,7 +12,7 @@ This microfrontend shows the top header menu-bar and creates a Signalr connectio
 Install the dependencies and start the server (use port 8501 for tests).
 
 ```sh
-cd weelo-microfronted-root-config
+cd weelo-microfronted-navbar
 npm i
 npm start
 ```
