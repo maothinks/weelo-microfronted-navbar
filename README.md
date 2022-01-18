@@ -11,6 +11,16 @@ This microfrontend shows the top header menu-bar and creates a Signalr connectio
 
 Install the dependencies and start the server (use port 8501 for tests).
 
+- appsettings.json
+
+This file contais the parameters for SignalRend Point
+
+```javascript
+{
+    "SignalREndPoint": "https://localhost:44306/weelo/properties"
+}
+```
+
 ```sh
 cd weelo-microfronted-navbar
 npm i
